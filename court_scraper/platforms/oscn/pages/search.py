@@ -17,11 +17,11 @@ class Search(BaseSearch):
     Supports searches by date, case type and a variety of other
     parameters. Large searches are truncated, so searches using
     this class should be targeted narrowly (e.g. a single day
-    for smaller counties). For larger counties such as Tulsa, 
+    for smaller counties). For larger counties such as Tulsa,
     use DailyFilings search class.
 
     Args:
-        - place_id (str): Standard place id (e.g. ok_alfalfa)
+        place_id (str): Standard place id (e.g. ok_alfalfa)
 
     """
 
